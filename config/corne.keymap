@@ -9,6 +9,25 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        Cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <25 26>;
+        };
+
+        Copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <26 27>;
+        };
+
+        Paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <27 28>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -21,10 +40,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F     &kp P  &kp B            &kp J      &kp L  &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
-&kp LCTRL  &kp A  &kp R  &kp S     &kp T  &kp G            &kp M      &kp N  &kp E      &kp I    &kp O          &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp D  &kp V            &kp K      &kp H  &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
-                         &kp LGUI  &mo 1  &mt LSHFT RET    &kp SPACE  &mo 2  &kp RALT
+&kp TAB    &kp Q  &kp W  &kp F     &kp P             &kp B            &kp J      &kp L              &kp U      &kp Y    &kp SEMICOLON  &kp BSPC
+&kp LCTRL  &kp A  &kp R  &kp S     &mt LEFT_SHIFT T  &kp G            &kp M      &mt RIGHT_SHIFT N  &kp E      &kp I    &kp O          &kp SQT
+&kp LSHFT  &kp Z  &kp X  &kp C     &kp D             &kp V            &kp K      &kp H              &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
+                         &kp LGUI  &mo 1             &mt LSHFT RET    &kp SPACE  &mo 2              &kp RALT
             >;
         };
 
