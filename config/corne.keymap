@@ -56,7 +56,7 @@
 
             display-name = "Nav";
             bindings = <
-&kp TAB     &trans        &trans        &trans        &trans        &trans                  &kp HOME      &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LC(E)      &trans  &kp BSPC
+&kp TAB     &trans        &trans        &trans        &trans        &trans                  &kp LG(LEFT)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT)  &trans  &kp BSPC
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &kp LEFT      &kp DOWN            &kp UP            &kp RIGHT      &trans  &trans
 &kp LSHFT   &trans        &trans        &trans        &trans        &kp LA(LG(C_EJECT))     &kp LA(LEFT)  &kp PAGE_DOWN       &kp PAGE_UP       &kp LA(RIGHT)  &trans  &trans
                                         &kp LGUI      &trans        &mt LEFT_SHIFT ENTER    &kp SPACE     &trans              &kp ESCAPE
