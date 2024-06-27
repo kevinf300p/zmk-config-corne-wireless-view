@@ -72,10 +72,10 @@
 
             display-name = "NumSym";
             bindings = <
-&kp TILDE    &kp EXCL  &kp AT      &kp HASH         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp K_CALC  &kp NUMBER_7  &kp N8        &kp N9        &kp PIPE      &kp BSPC
-&kp CARET    &kp AMPS  &kp DOLLAR  &kp KP_ASTERISK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp MINUS   &kp N4        &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &kp GRAVE
-&kp PERCENT  &kp PLUS  &kp EQUAL   &kp BACKSLASH    &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp UNDER   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp ENTER
-                                   &kp LGUI         &trans                &mt LEFT_SHIFT ENTER     &kp SPACE   &trans        &kp RALT
+&kp TILDE    &kp EXCL  &kp AT      &kp HASH         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp C_AL_CALC  &kp NUMBER_7  &kp N8        &kp N9        &kp PIPE      &kp BSPC
+&kp CARET    &kp AMPS  &kp DOLLAR  &kp KP_ASTERISK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp MINUS      &kp N4        &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &kp GRAVE
+&kp PERCENT  &kp PLUS  &kp EQUAL   &kp BACKSLASH    &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp UNDER      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp ENTER
+                                   &kp LGUI         &trans                &mt LEFT_SHIFT ENTER     &kp SPACE      &trans        &kp RALT
             >;
         };
     };
