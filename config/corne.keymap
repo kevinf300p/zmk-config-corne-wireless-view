@@ -40,10 +40,10 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC                          &kp Q  &kp W  &kp E     &kp R  &kp T                     &kp Y               &kp U  &kp I          &kp O    &kp P          &kp BSPC
-&kp TAB                          &kp A  &kp S  &kp D     &kp F  &kp G                     &kp H               &kp J  &kp K          &kp L    &kp SEMICOLON  &kp SQT
-&mt LEFT_SHIFT LEFT_PARENTHESIS  &kp Z  &kp X  &kp C     &kp V  &kp B                     &kp N               &kp M  &kp COMMA      &kp DOT  &kp FSLH       &mt RIGHT_SHIFT RIGHT_PARENTHESIS
-                                               &kp LGUI  &mo 1  &mt LEFT_CONTROL SPACE    &mt LEFT_ALT ENTER  &mo 2  &kp BACKSLASH
+&kp TAB                          &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y      &kp U  &kp I         &kp O    &kp P          &kp NON_US_BACKSLASH
+&mt LEFT_SHIFT LEFT_PARENTHESIS  &kp A  &kp S  &kp D         &kp F  &kp G        &kp H      &kp J  &kp K         &kp L    &kp SEMICOLON  &kp SQT
+&kp LEFT_CONTROL                 &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N      &kp M  &kp COMMA     &kp DOT  &kp FSLH       &mt RIGHT_SHIFT RIGHT_PARENTHESIS
+                                               &kp LEFT_GUI  &mo 1  &kp SPACE    &kp ENTER  &mo 2  &kp LEFT_ALT
             >;
         };
 
@@ -56,10 +56,10 @@
 
             display-name = "Nav";
             bindings = <
-&bt BT_CLR    &bt BT_SEL 2  &kp LA(RIGHT)  &trans    &trans             &kp LA(LEFT)            &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &trans     &kp DEL
-&bt BT_SEL 0  &bt BT_SEL 3  &trans         &trans    &kp C_VOLUME_UP    &kp C_MUTE              &kp LEFT            &kp DOWN            &kp UP            &kp RIGHT            &trans     &trans
-&bt BT_SEL 1  &bt BT_SEL 4  &trans         &trans    &kp K_VOLUME_DOWN  &kp LA(LG(C_EJECT))     &kp LA(LEFT)        &kp PAGE_DOWN       &kp PAGE_UP       &kp LA(RIGHT)        &kp LG(F)  &trans
-                                           &kp LGUI  &trans             &mt LEFT_SHIFT ENTER    &kp SPACE           &trans              &kp ESCAPE
+&bt BT_CLR    &bt BT_SEL 2  &kp LA(RIGHT)  &trans  &trans             &kp LA(LEFT)           &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &trans     &kp DEL
+&bt BT_SEL 0  &bt BT_SEL 3  &trans         &trans  &kp C_VOLUME_UP    &kp C_MUTE             &kp LEFT            &kp DOWN            &kp UP            &kp RIGHT            &trans     &trans
+&bt BT_SEL 1  &bt BT_SEL 4  &trans         &trans  &kp K_VOLUME_DOWN  &kp LA(LG(C_EJECT))    &kp LA(LEFT)        &kp PAGE_DOWN       &kp PAGE_UP       &kp LA(RIGHT)        &kp LG(F)  &trans
+                                           &none   &trans             &trans                 &kp BACKSPACE       &trans              &none
             >;
         };
 
@@ -72,10 +72,10 @@
 
             display-name = "NumSym";
             bindings = <
-&kp TAB      &kp EXCL  &kp AT      &kp HASH         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PIPE   &kp NUMBER_7  &kp N8        &kp N9        &kp SLASH     &kp DEL
-&kp CARET    &kp AMPS  &kp DOLLAR  &kp KP_ASTERISK  &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp MINUS  &kp N4        &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &kp GRAVE
-&kp PERCENT  &kp PLUS  &kp EQUAL   &kp BACKSLASH    &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp UNDER  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp TILDE
-                                   &kp LGUI         &trans                &mt LEFT_SHIFT ENTER     &kp SPACE  &trans        &kp ENTER
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4      &kp NUMBER_5        &kp NUMBER_6       &kp NUMBER_7  &kp N8        &kp N9        &kp SLASH     &kp DEL
+&trans  &none         &kp DOLLAR    &kp KP_ASTERISK  &kp LEFT_BRACKET  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp N4        &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &kp GRAVE
+&trans  &kp PLUS      &kp EQUAL     &kp BACKSLASH    &kp LEFT_BRACE    &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp TILDE
+                                    &none            &trans            &kp ESC             &trans             &trans        &none
             >;
         };
     };
