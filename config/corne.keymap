@@ -56,10 +56,10 @@
 
             display-name = "Nav";
             bindings = <
-&bt BT_CLR    &bt BT_SEL 2  &kp LA(RIGHT)  &trans    &trans             &kp LA(LEFT)            &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &trans     &kp DEL
-&bt BT_SEL 0  &bt BT_SEL 3  &trans         &trans    &kp C_VOLUME_UP    &kp C_MUTE              &kp LEFT            &kp DOWN            &kp UP            &kp RIGHT            &trans     &trans
-&bt BT_SEL 1  &bt BT_SEL 4  &trans         &trans    &kp K_VOLUME_DOWN  &kp LA(LG(C_EJECT))     &kp LA(LEFT)        &kp PAGE_DOWN       &kp PAGE_UP       &kp LA(RIGHT)        &kp LG(F)  &trans
-                                           &kp LGUI  &trans             &mt LEFT_SHIFT ENTER    &kp SPACE           &trans              &kp ESCAPE
+&kp TAB  &bt BT_SEL 2  &trans  &bt BT_SEL 0  &kp C_VOLUME_UP    &kp LA(LEFT)            &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &trans     &kp DEL
+&trans   &bt BT_SEL 3  &trans  &bt BT_SEL 1  &kp K_VOLUME_DOWN  &trans                  &kp LEFT            &kp DOWN            &kp UP            &kp RIGHT            &trans     &trans
+&trans   &bt BT_SEL 4  &trans  &bt BT_SEL 2  &kp C_MUTE         &kp LA(LG(C_EJECT))     &kp LA(LEFT)        &kp PAGE_DOWN       &kp PAGE_UP       &kp LA(RIGHT)        &kp LG(F)  &trans
+                               &kp LGUI      &trans             &mt LEFT_SHIFT ENTER    &kp SPACE           &trans              &kp ESCAPE
             >;
         };
 
