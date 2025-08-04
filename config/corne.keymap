@@ -40,10 +40,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T            &kp Y      &kp U  &kp I       &kp O    &kp P          &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G            &kp H      &kp J  &kp K       &kp L    &kp SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B            &kp N      &kp M  &kp COMMA   &kp DOT  &kp FSLH       &kp RIGHT_ALT
-                         &kp LGUI  &mo 1  &mt LSHFT RET    &kp SPACE  &mo 2  &kp ESCAPE
+&kp TAB       &kp Q  &kp W  &kp E     &kp R  &kp T            &kp Y      &kp U  &kp I       &kp O    &kp P          &kp BSPC
+&kp LCTRL     &kp A  &kp S  &kp D     &kp F  &kp G            &kp H      &kp J  &kp K       &kp L    &kp SEMICOLON  &kp SQT
+&kp LEFT_ALT  &kp Z  &kp X  &kp C     &kp V  &kp B            &kp N      &kp M  &kp COMMA   &kp DOT  &kp FSLH       &kp RIGHT_ALT
+                            &kp LGUI  &mo 1  &mt LSHFT RET    &kp SPACE  &mo 2  &kp ESCAPE
             >;
         };
 
@@ -56,10 +56,10 @@
 
             display-name = "Nav";
             bindings = <
-&kp TAB  &bt BT_SEL 2  &trans  &bt BT_SEL 0  &kp C_VOLUME_UP    &kp LA(LEFT)            &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &trans     &kp DEL
-&trans   &bt BT_SEL 3  &trans  &bt BT_SEL 1  &kp K_VOLUME_DOWN  &trans                  &kp LEFT            &kp DOWN            &kp UP            &kp RIGHT            &trans     &trans
-&trans   &bt BT_SEL 4  &trans  &bt BT_SEL 2  &kp C_MUTE         &kp LA(LG(C_EJECT))     &kp LA(LEFT)        &kp PAGE_DOWN       &kp PAGE_UP       &kp LA(RIGHT)        &kp LG(F)  &trans
-                               &kp LGUI      &trans             &mt LEFT_SHIFT ENTER    &kp SPACE           &trans              &kp ESCAPE
+&kp TAB       &bt BT_SEL 2  &trans  &bt BT_SEL 0  &kp C_VOLUME_UP    &kp LA(LEFT)            &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(UP_ARROW)  &kp LG(RIGHT_ARROW)  &trans     &kp DEL
+&trans        &bt BT_SEL 3  &trans  &bt BT_SEL 1  &kp K_VOLUME_DOWN  &trans                  &kp LEFT            &kp DOWN            &kp UP            &kp RIGHT            &trans     &trans
+&kp LEFT_ALT  &bt BT_SEL 4  &trans  &bt BT_SEL 2  &kp C_MUTE         &kp LA(LG(C_EJECT))     &kp LA(LEFT)        &kp PAGE_DOWN       &kp PAGE_UP       &kp LA(RIGHT)        &kp LG(F)  &trans
+                                    &kp LGUI      &trans             &mt LEFT_SHIFT ENTER    &kp SPACE           &trans              &kp ESCAPE
             >;
         };
 
