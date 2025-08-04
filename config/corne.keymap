@@ -72,10 +72,10 @@
 
             display-name = "NumSym";
             bindings = <
-&kp TAB      &kp EXCL  &kp AT      &kp HASH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PLUS   &kp NUMBER_7  &kp N8        &kp N9        &kp ASTERISK  &kp DEL
-&kp CARET    &kp AMPS  &kp DOLLAR  &kp PIPE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp N0     &kp N4        &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD    &kp GRAVE
-&kp PERCENT  &kp PLUS  &kp EQUAL   &kp BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp TILDE
-                                   &kp LGUI       &trans                &mt LEFT_SHIFT ENTER     &kp SPACE  &trans        &kp ENTER
+&kp TAB       &kp EXCL     &kp AT      &kp HASH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PLUS   &kp NUMBER_7  &kp N8        &kp N9        &kp ASTERISK  &kp DEL
+&kp CARET     &kp AMPS     &kp DOLLAR  &kp PIPE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp N0     &kp N4        &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD    &kp GRAVE
+&kp LEFT_ALT  &kp PERCENT  &kp EQUAL   &kp BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp TILDE
+                                       &kp LGUI       &trans                &mt LEFT_SHIFT ENTER     &kp SPACE  &trans        &kp ENTER
             >;
         };
     };
