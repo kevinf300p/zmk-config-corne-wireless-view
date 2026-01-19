@@ -26,6 +26,21 @@
             bindings = <&kp LG(V)>;
             key-positions = <27 28>;
         };
+
+        Wispr_Paste {
+            bindings = <&kp LC(LG(V))>;
+            key-positions = <31 32>;
+        };
+
+        Wispr_Talk {
+            bindings = <&kp LCTRL>;
+            key-positions = <32 33>;
+        };
+
+        Wispr_HandsFree {
+            bindings = <&kp LC(SPACE)>;
+            key-positions = <33 34>;
+        };
     };
 
     keymap {
