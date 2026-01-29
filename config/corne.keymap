@@ -15,31 +15,49 @@
         Cut {
             bindings = <&kp LG(X)>;
             key-positions = <25 26>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
         };
 
         Copy {
             bindings = <&kp LG(C)>;
             key-positions = <26 27>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
         };
 
         Paste {
             bindings = <&kp LG(V)>;
             key-positions = <27 28>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
+            layers = <0>;
         };
 
         Wispr_Paste {
             bindings = <&kp LC(LG(V))>;
             key-positions = <31 32>;
+            require-prior-idle-ms = <75>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
 
         Wispr_Talk {
             bindings = <&kp LCTRL>;
             key-positions = <32 33>;
+            layers = <0>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
         };
 
         Wispr_HandsFree {
             bindings = <&kp LC(SPACE)>;
             key-positions = <33 34>;
+            layers = <0>;
+            timeout-ms = <50>;
+            require-prior-idle-ms = <75>;
         };
     };
 
