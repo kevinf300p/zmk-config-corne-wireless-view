@@ -9,17 +9,18 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-     behaviors {
-            hm: hold_mods {
-                compatible = "zmk,behavior-hold-tap";
-                #binding-cells = <2>;
-                tapping-term-ms = <300>;
-                quick-tap-ms = <200>;
-                require-prior-idle-ms = <150>;
-                flavor = "tap-preferred";
-                bindings = <&kp>, <&kp>;
-            };
+    behaviors {
+        hm: hold_mods {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <200>;
+            require-prior-idle-ms = <150>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
         };
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -84,10 +85,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB       &kp Q        &kp W  &kp E        &kp R  &mt LA(T) T      &kp Y      &kp U  &kp I       &kp O    &kp P          &kp BSPC
-&kp LCTRL     &kp A        &kp S  &kp D        &kp F  &kp G            &kp H      &kp J  &kp K       &kp L    &kp SEMICOLON  &kp SQT
-&kp LEFT_ALT  &mt LA(Z) Z  &kp X  &mt LA(C) C  &kp V  &mt LA(B) B      &kp N      &kp M  &kp COMMA   &kp DOT  &kp FSLH       &kp RIGHT_ALT
-                                  &kp LGUI     &mo 1  &mt LSHFT RET    &kp SPACE  &mo 2  &kp ESCAPE
+&kp TAB       &kp Q        &hm LA(W) W  &hm LA(E) E  &hm LA(R) R  &hm LA(T) T      &kp Y      &kp U  &kp I       &hm LA(O) O  &hm LA(P) P    &kp BSPC
+&kp LCTRL     &hm LA(A) A  &kp S        &kp D        &hm LA(F) F  &kp G            &kp H      &kp J  &kp K       &kp L        &kp SEMICOLON  &kp SQT
+&kp LEFT_ALT  &hm LA(Z) Z  &kp X        &hm LA(C) C  &hm LA(V) V  &hm LA(B) B      &kp N      &kp M  &kp COMMA   &kp DOT      &kp FSLH       &kp RIGHT_ALT
+                                        &kp LGUI     &mo 1        &mt LSHFT RET    &kp SPACE  &mo 2  &kp ESCAPE
             >;
         };
 
@@ -116,10 +117,10 @@
 
             display-name = "NumSym";
             bindings = <
-&kp TILDE     &kp EXCL     &kp AT      &kp HASH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PLUS   &kp NUMBER_7  &kp N8        &kp N9        &kp ASTERISK  &kp DEL
-&kp CARET     &kp AMPS     &kp DOLLAR  &kp PIPE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp N0     &kp N4        &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD    &kp GRAVE
-&kp LEFT_ALT  &kp PERCENT  &kp EQUAL   &kp BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &kp RIGHT_ALT
-                                       &kp LGUI       &trans                &mt LEFT_SHIFT ENTER     &kp SPACE  &trans        &kp ENTER
+&kp TILDE     &kp EXCL     &kp AT      &kp HASH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PLUS   &kp NUMBER_7               &kp N8                     &kp N9                     &kp ASTERISK  &kp DEL
+&kp CARET     &kp AMPS     &kp DOLLAR  &kp PIPE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp N0     &kp N4                     &kp NUMBER_5               &kp NUMBER_6               &kp PERIOD    &kp GRAVE
+&kp LEFT_ALT  &kp PERCENT  &kp EQUAL   &kp BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp MINUS  &hm LA(NUMBER_1) NUMBER_1  &hm LA(NUMBER_2) NUMBER_2  &hm LA(NUMBER_3) NUMBER_3  &kp SLASH     &kp RIGHT_ALT
+                                       &kp LGUI       &trans                &mt LEFT_SHIFT ENTER     &kp SPACE  &trans                     &kp ENTER
             >;
         };
     };
