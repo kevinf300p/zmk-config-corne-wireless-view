@@ -9,6 +9,17 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+     behaviors {
+            hm: hold_mods {
+                compatible = "zmk,behavior-hold-tap";
+                #binding-cells = <2>;
+                tapping-term-ms = <300>;
+                quick-tap-ms = <200>;
+                require-prior-idle-ms = <150>;
+                flavor = "tap-preferred";
+                bindings = <&kp>, <&kp>;
+            };
+        };
     combos {
         compatible = "zmk,combos";
 
